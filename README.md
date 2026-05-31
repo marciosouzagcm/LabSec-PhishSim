@@ -1,7 +1,3 @@
-Aqui está o arquivo `README.md` completo e atualizado, condensando a realidade atual do seu laboratório (com as correções de nomenclatura) e a nova proposta de expansão para a nuvem.
-
-Você pode copiar todo o bloco de código abaixo e substituir o conteúdo do seu arquivo atual na VM.
-
 ```markdown
 # LabSec-PhishSim 🛡️ 🚀
 
