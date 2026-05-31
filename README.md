@@ -40,6 +40,8 @@ LabSec-PhishSim/
 ├── .gitignore                  # Proteção de ambiente virtual e logs locais
 └── README.md                   # Documentação do projeto
 
+---
+
 🕵️‍♂️ Formato do Log Gerado (Análise Forense)
 
 Quando uma requisição é capturada, o motor gera uma entrada estruturada e anonimizada no arquivo de log:
