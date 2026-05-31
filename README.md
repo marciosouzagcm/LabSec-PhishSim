@@ -49,7 +49,9 @@ Plaintext
 
 [2026-05-30 23:41:32] IP_ORIGEM: 192.168.204.1 | USUARIO_ALVO: marcio.souza@globalcorp.com | CREDENTIAL_HASH(SHA256): 33a5dc2f4c65ed3f7155af1f9e15b30e2ff796433392a348275f579222d0a677 | NAV_INFO: Mozilla/5.0 (Windows NT 10.0; Win64; x64)...
 
-🚀 Como Executar o Laboratório Localmente
+---
+
+##🚀 Como Executar o Laboratório Localmente
 Pró-requisitos
 
     Python 3 instalado
@@ -75,9 +77,13 @@ Bash
 cd src/backend
 python3 app.py
 
-⚖️ Aviso Legal (Disclaimer)
+
+---
+
+
+##⚖️ Aviso Legal (Disclaimer)
 
 Este projeto foi desenvolvido estritamente para fins de pesquisa acadêmica, testes de penetração autorizados e treinamento de conscientização de usuários. O uso deste código contra sistemas sem consentimento explícito e por escrito dos proprietários é ilegal e passível de penalidades jurídicas. O desenvolvedor não se responsabiliza pelo mau uso desta ferramenta.
-
+---
 Developed by Marcio Souza 💻
 
